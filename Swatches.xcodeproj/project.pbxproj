@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525941421A1E5375001B3924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525941411A1E5375001B3924 /* AppDelegate.swift */; };
+		525941441A1E5375001B3924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525941431A1E5375001B3924 /* ViewController.swift */; };
+		525941471A1E5375001B3924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525941451A1E5375001B3924 /* Main.storyboard */; };
+		525941491A1E5375001B3924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525941481A1E5375001B3924 /* Images.xcassets */; };
+		5259414C1A1E5375001B3924 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5259414A1A1E5375001B3924 /* LaunchScreen.xib */; };
+		525941581A1E5375001B3924 /* SwatchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525941571A1E5375001B3924 /* SwatchesTests.swift */; };
+		525941681A1E538E001B3924 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525941671A1E538E001B3924 /* WatchKit.framework */; };
+		5259416D1A1E538E001B3924 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259416C1A1E538E001B3924 /* InterfaceController.swift */; };
+		5259416F1A1E538E001B3924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5259416E1A1E538E001B3924 /* Images.xcassets */; };
+		525941731A1E538E001B3924 /* Swatches Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 525941721A1E538E001B3924 /* Swatches Watch App.app */; };
+		5259417A1A1E538E001B3924 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525941791A1E538E001B3924 /* Interface.storyboard */; };
+		5259417C1A1E538E001B3924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5259417B1A1E538E001B3924 /* Images.xcassets */; };
+		5259417F1A1E538E001B3924 /* Swatches WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 525941651A1E538E001B3924 /* Swatches WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525941521A1E5375001B3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525941341A1E5375001B3924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5259413B1A1E5375001B3924;
+			remoteInfo = Swatches;
+		};
+		525941741A1E538E001B3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525941341A1E5375001B3924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525941711A1E538E001B3924;
+			remoteInfo = "Swatches Watch App";
+		};
+		5259417D1A1E538E001B3924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525941341A1E5375001B3924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525941641A1E538E001B3924;
+			remoteInfo = "Swatches WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		525941861A1E538E001B3924 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5259417F1A1E538E001B3924 /* Swatches WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5259413C1A1E5375001B3924 /* Swatches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525941401A1E5375001B3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525941411A1E5375001B3924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525941431A1E5375001B3924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525941461A1E5375001B3924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525941481A1E5375001B3924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5259414B1A1E5375001B3924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		525941511A1E5375001B3924 /* SwatchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525941561A1E5375001B3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525941571A1E5375001B3924 /* SwatchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchesTests.swift; sourceTree = "<group>"; };
+		525941651A1E538E001B3924 /* Swatches WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Swatches WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525941671A1E538E001B3924 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		5259416B1A1E538E001B3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5259416C1A1E538E001B3924 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5259416E1A1E538E001B3924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		525941721A1E538E001B3924 /* Swatches Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525941781A1E538E001B3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525941791A1E538E001B3924 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		5259417B1A1E538E001B3924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525941391A1E5375001B3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5259414E1A1E5375001B3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525941621A1E538E001B3924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525941681A1E538E001B3924 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525941331A1E5375001B3924 = {
+			isa = PBXGroup;
+			children = (
+				5259413E1A1E5375001B3924 /* Swatches */,
+				525941541A1E5375001B3924 /* SwatchesTests */,
+				525941691A1E538E001B3924 /* Swatches WatchKit Extension */,
+				525941761A1E538E001B3924 /* Swatches Watch App */,
+				525941661A1E538E001B3924 /* Frameworks */,
+				5259413D1A1E5375001B3924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5259413D1A1E5375001B3924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5259413C1A1E5375001B3924 /* Swatches.app */,
+				525941511A1E5375001B3924 /* SwatchesTests.xctest */,
+				525941651A1E538E001B3924 /* Swatches WatchKit Extension.appex */,
+				525941721A1E538E001B3924 /* Swatches Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5259413E1A1E5375001B3924 /* Swatches */ = {
+			isa = PBXGroup;
+			children = (
+				525941411A1E5375001B3924 /* AppDelegate.swift */,
+				525941431A1E5375001B3924 /* ViewController.swift */,
+				525941451A1E5375001B3924 /* Main.storyboard */,
+				525941481A1E5375001B3924 /* Images.xcassets */,
+				5259414A1A1E5375001B3924 /* LaunchScreen.xib */,
+				5259413F1A1E5375001B3924 /* Supporting Files */,
+			);
+			path = Swatches;
+			sourceTree = "<group>";
+		};
+		5259413F1A1E5375001B3924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525941401A1E5375001B3924 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		525941541A1E5375001B3924 /* SwatchesTests */ = {
+			isa = PBXGroup;
+			children = (
+				525941571A1E5375001B3924 /* SwatchesTests.swift */,
+				525941551A1E5375001B3924 /* Supporting Files */,
+			);
+			path = SwatchesTests;
+			sourceTree = "<group>";
+		};
+		525941551A1E5375001B3924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525941561A1E5375001B3924 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		525941661A1E538E001B3924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				525941671A1E538E001B3924 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		525941691A1E538E001B3924 /* Swatches WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5259416C1A1E538E001B3924 /* InterfaceController.swift */,
+				5259416E1A1E538E001B3924 /* Images.xcassets */,
+				5259416A1A1E538E001B3924 /* Supporting Files */,
+			);
+			path = "Swatches WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5259416A1A1E538E001B3924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5259416B1A1E538E001B3924 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		525941761A1E538E001B3924 /* Swatches Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				525941791A1E538E001B3924 /* Interface.storyboard */,
+				5259417B1A1E538E001B3924 /* Images.xcassets */,
+				525941771A1E538E001B3924 /* Supporting Files */,
+			);
+			path = "Swatches Watch App";
+			sourceTree = "<group>";
+		};
+		525941771A1E538E001B3924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				525941781A1E538E001B3924 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5259413B1A1E5375001B3924 /* Swatches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5259415B1A1E5375001B3924 /* Build configuration list for PBXNativeTarget "Swatches" */;
+			buildPhases = (
+				525941381A1E5375001B3924 /* Sources */,
+				525941391A1E5375001B3924 /* Frameworks */,
+				5259413A1A1E5375001B3924 /* Resources */,
+				525941861A1E538E001B3924 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5259417E1A1E538E001B3924 /* PBXTargetDependency */,
+			);
+			name = Swatches;
+			productName = Swatches;
+			productReference = 5259413C1A1E5375001B3924 /* Swatches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525941501A1E5375001B3924 /* SwatchesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5259415E1A1E5375001B3924 /* Build configuration list for PBXNativeTarget "SwatchesTests" */;
+			buildPhases = (
+				5259414D1A1E5375001B3924 /* Sources */,
+				5259414E1A1E5375001B3924 /* Frameworks */,
+				5259414F1A1E5375001B3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525941531A1E5375001B3924 /* PBXTargetDependency */,
+			);
+			name = SwatchesTests;
+			productName = SwatchesTests;
+			productReference = 525941511A1E5375001B3924 /* SwatchesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525941641A1E538E001B3924 /* Swatches WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525941831A1E538E001B3924 /* Build configuration list for PBXNativeTarget "Swatches WatchKit Extension" */;
+			buildPhases = (
+				525941611A1E538E001B3924 /* Sources */,
+				525941621A1E538E001B3924 /* Frameworks */,
+				525941631A1E538E001B3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525941751A1E538E001B3924 /* PBXTargetDependency */,
+			);
+			name = "Swatches WatchKit Extension";
+			productName = "Swatches WatchKit Extension";
+			productReference = 525941651A1E538E001B3924 /* Swatches WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		525941711A1E538E001B3924 /* Swatches Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525941801A1E538E001B3924 /* Build configuration list for PBXNativeTarget "Swatches Watch App" */;
+			buildPhases = (
+				525941701A1E538E001B3924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swatches Watch App";
+			productName = "Swatches Watch App";
+			productReference = 525941721A1E538E001B3924 /* Swatches Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525941341A1E5375001B3924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Code Monkey Labs LLC";
+				TargetAttributes = {
+					5259413B1A1E5375001B3924 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					525941501A1E5375001B3924 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5259413B1A1E5375001B3924;
+					};
+					525941641A1E538E001B3924 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					525941711A1E538E001B3924 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 525941371A1E5375001B3924 /* Build configuration list for PBXProject "Swatches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525941331A1E5375001B3924;
+			productRefGroup = 5259413D1A1E5375001B3924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5259413B1A1E5375001B3924 /* Swatches */,
+				525941501A1E5375001B3924 /* SwatchesTests */,
+				525941641A1E538E001B3924 /* Swatches WatchKit Extension */,
+				525941711A1E538E001B3924 /* Swatches Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5259413A1A1E5375001B3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525941471A1E5375001B3924 /* Main.storyboard in Resources */,
+				5259414C1A1E5375001B3924 /* LaunchScreen.xib in Resources */,
+				525941491A1E5375001B3924 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5259414F1A1E5375001B3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525941631A1E538E001B3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5259416F1A1E538E001B3924 /* Images.xcassets in Resources */,
+				525941731A1E538E001B3924 /* Swatches Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525941701A1E538E001B3924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5259417A1A1E538E001B3924 /* Interface.storyboard in Resources */,
+				5259417C1A1E538E001B3924 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525941381A1E5375001B3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525941441A1E5375001B3924 /* ViewController.swift in Sources */,
+				525941421A1E5375001B3924 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5259414D1A1E5375001B3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525941581A1E5375001B3924 /* SwatchesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525941611A1E538E001B3924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5259416D1A1E538E001B3924 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525941531A1E5375001B3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5259413B1A1E5375001B3924 /* Swatches */;
+			targetProxy = 525941521A1E5375001B3924 /* PBXContainerItemProxy */;
+		};
+		525941751A1E538E001B3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525941711A1E538E001B3924 /* Swatches Watch App */;
+			targetProxy = 525941741A1E538E001B3924 /* PBXContainerItemProxy */;
+		};
+		5259417E1A1E538E001B3924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525941641A1E538E001B3924 /* Swatches WatchKit Extension */;
+			targetProxy = 5259417D1A1E538E001B3924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525941451A1E5375001B3924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525941461A1E5375001B3924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5259414A1A1E5375001B3924 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5259414B1A1E5375001B3924 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525941591A1E5375001B3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5259415A1A1E5375001B3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5259415C1A1E5375001B3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Swatches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5259415D1A1E5375001B3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Swatches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5259415F1A1E5375001B3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwatchesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swatches.app/Swatches";
+			};
+			name = Debug;
+		};
+		525941601A1E5375001B3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwatchesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swatches.app/Swatches";
+			};
+			name = Release;
+		};
+		525941811A1E538E001B3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Swatches_WatchKit_Extension;
+				INFOPLIST_FILE = "Swatches Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		525941821A1E538E001B3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Swatches_WatchKit_Extension;
+				INFOPLIST_FILE = "Swatches Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		525941841A1E538E001B3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swatches WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		525941851A1E538E001B3924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swatches WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525941371A1E5375001B3924 /* Build configuration list for PBXProject "Swatches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525941591A1E5375001B3924 /* Debug */,
+				5259415A1A1E5375001B3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5259415B1A1E5375001B3924 /* Build configuration list for PBXNativeTarget "Swatches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5259415C1A1E5375001B3924 /* Debug */,
+				5259415D1A1E5375001B3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5259415E1A1E5375001B3924 /* Build configuration list for PBXNativeTarget "SwatchesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5259415F1A1E5375001B3924 /* Debug */,
+				525941601A1E5375001B3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525941801A1E538E001B3924 /* Build configuration list for PBXNativeTarget "Swatches Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525941811A1E538E001B3924 /* Debug */,
+				525941821A1E538E001B3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525941831A1E538E001B3924 /* Build configuration list for PBXNativeTarget "Swatches WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525941841A1E538E001B3924 /* Debug */,
+				525941851A1E538E001B3924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525941341A1E5375001B3924 /* Project object */;
+}
